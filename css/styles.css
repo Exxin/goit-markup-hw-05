@@ -22,18 +22,16 @@ body {
     height: 40px;
     border-radius: 50%;
     background-color: #4D5AE5;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-    /* box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    transform 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link:hover,
 .link:focus {
     background-color: #404BBF;
-
-    /* transform: scale(1.1);
-    box-shadow: 0px 4px 4px 0px #313991; */
+    transform: scale(1.1);
+    box-shadow: 0px 4px 4px 0px #313991;
 }
 
 .icon-box {
@@ -244,7 +242,7 @@ header .menu-link:hover {
     margin: auto;
     transition:
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
     transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -506,17 +504,16 @@ header .menu-link:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
-    /* transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    transform 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-foot:hover,
 .link-foot:focus {
     background-color: #31d0aa;
-    /* transform: scale(1.1);
-    box-shadow: 0px 4px 4px 0px #1c7762; */
+    transform: scale(1.1);
+    box-shadow: 0px 4px 4px 0px #1c7762;
 }
 
 .link-foot .icon-foot {
