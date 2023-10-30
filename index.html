@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <script src="script.js"></script>
+    <script src="./js/modal.js"></script>
   </head>
   <body>
     <header class="head-box">
@@ -65,7 +65,9 @@
         <!-- Секція HERO -->
         <div class="container hero">
           <h1 class="hero-text">Effective Solutions for Your Business</h1>
-          <button class="service-button">Order Service</button>
+          <button type="button" class="service-button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <section class="strategy-section">
@@ -570,9 +572,9 @@
       </div>
     </footer>
     <!-- ============ Modal Menu ============= -->
-    <div class="backdrop is-open">
+    <div class="backdrop is-open" data-modal>
       <div class="modal">
-        <button type="button" class="modal-btn">
+        <button type="button" class="modal-btn" data-modal-close>
           <svg class="modal-btn-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close-cross"></use>
           </svg>
